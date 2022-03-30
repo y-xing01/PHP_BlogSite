@@ -15,4 +15,14 @@ class PagesController extends Controller
     {
         return view('about');
     }
+
+    public function support()
+    {
+        return view('support');
+    }
+
+    public function alchoholFacts()
+    {
+        return view('alchoholFacts');
+    }
 }
