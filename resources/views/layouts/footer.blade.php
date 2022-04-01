@@ -1,93 +1,79 @@
-<footer class="bg-gray-800 py-20 mt-20">
-    <div class="sm:grid grid-cols-3 w-4/5 pb-10 m-auto border-b-2 border-gray-700">
+<footer class="bg-red-900 py-20 mt-20">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <div class="sm:grid grid-cols-3 w-4/5 pb-10 m-auto border-b-2 border-light-700">
+
         <div>
-            <h3 class="text-l sm:font-bold text-gray-100">
+            <h3 class="text-xl sm:font-bold text-gray-50">
                 Pages
             </h3>
 
-            <ul class="py-4 sm:text-s pt-4 text-gray-400">
-                <li class="pb-1">
+            <ul class="py-4 sm:text-s pt-4 text-red-400">
+                <li class="pb-2">
                     <a href="/">
                         Home
                     </a>
                 </li>
-                <li class="pb-1">
+                <li class="pb-2">
                     <a href="/blog">
                         Blog
                     </a>
                 </li>
-                <li class="pb-1">
-                    <a href="/login">
-                        Login
+                <li class="pb-2">
+                    <a href="/about">
+                        About us
                     </a>
                 </li>
-                <li class="pb-1">
-                    <a href="/register">
-                        Register
+                <li class="pb-2">
+                    <a href="/alchoholFacts">
+                        Alcohol Facts
+                    </a>
+                </li>
+                <li class="pb-2">
+                    <a href="/support">
+                        Support
                     </a>
                 </li>
             </ul>
         </div>
 
-        <div>
-            <h3 class="text-l sm:font-bold text-gray-100">
-                Find Us
+        <div></div>
+        <div class="right-0">
+            <h3 class="text-xl sm:font-bold text-gray-50">
+                Contact us
             </h3>
 
-            <ul class="py-4 sm:text-s pt-4 text-gray-400">
-                <li class="pb-1">
+            <ul class="py-4 sm:text-s pt-4 text-red-400">
+                <li class="pb-8">
                     <a href="/">
-                        What we do
+                        <i class="fa fa-facebook-official" style="font-size:36px"></i>
+                    </a>
+                    <a href="/">
+                        <i class="fa fa-instagram" style="font-size:36px"></i>
+                    </a>
+                    <a href="/">
+                        <i class="fa fa-telegram" style="font-size:36px"></i>
+                    </a>
+                    <a href="/">
+                        <i class="fa fa-twitter" style="font-size:36px"></i>
                     </a>
                 </li>
-                <li class="pb-1">
+                <li class="pb-2">
+                    Phone :
                     <a href="/">
-                        Address
+                        0839945732
                     </a>
                 </li>
-                <li class="pb-1">
+                <li class="pb-2">
+                    Email :
                     <a href="/">
-                        Phone
-                    </a>
-                </li>
-                <li class="pb-1">
-                    <a href="/">
-                        Contact
+                        D00225746@student.dkit.ie
                     </a>
                 </li>
             </ul>
         </div>
 
-        <div>
-            <h3 class="text-l sm:font-bold text-gray-100">
-                Latest posts
-            </h3>
-
-            <ul class="py-4 sm:text-s pt-4 text-gray-400">
-                <li class="pb-1">
-                    <a href="/">
-                        Why we love tech
-                    </a>
-                </li>
-                <li class="pb-1">
-                    <a href="/">
-                        Why we love design
-                    </a>
-                </li>
-                <li class="pb-1">
-                    <a href="/">
-                        Why to use Laravel
-                    </a>
-                </li>
-                <li class="pb-1">
-                    <a href="/">
-                        Why PHP is the best
-                    </a>
-                </li>
-            </ul>
-        </div>
     </div>
     <p class="w-25 w-4/5 pb-3 m-auto text-xs text-gray-100 pt-6">
-        Copyright 2017-2021 Code With Dary. All Rights Reserved
+        Copyright 2022. All Rights Reserved
     </p>
 </footer>

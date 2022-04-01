@@ -21,8 +21,8 @@ class PagesController extends Controller
         return view('support');
     }
 
-    public function alchoholFacts()
+    public function alcoholFacts()
     {
-        return view('alchoholFacts');
+        return view('alcoholFacts');
     }
 }
