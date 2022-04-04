@@ -44,16 +44,16 @@
 
             <ul class="py-4 sm:text-s pt-4 text-yellow-50">
                 <li class="pb-8">
-                    <a href="/">
+                    <a href="https://www.facebook.com/jeremy.soh.18" target="_blank">
                         <i class="fa fa-facebook-official" style="font-size:36px"></i>
                     </a>
-                    <a href="/">
+                    <a href="https://www.instagram.com/jeremy_soh00/" target="_blank">
                         <i class="fa fa-instagram" style="font-size:36px"></i>
                     </a>
-                    <a href="/">
+                    <a href="https://eu.telegram.com/" target="_blank">
                         <i class="fa fa-telegram" style="font-size:36px"></i>
                     </a>
-                    <a href="/">
+                    <a href="https://twitter.com/" target="_blank">
                         <i class="fa fa-twitter" style="font-size:36px"></i>
                     </a>
                 </li>
