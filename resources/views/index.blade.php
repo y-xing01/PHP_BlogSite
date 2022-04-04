@@ -1,9 +1,9 @@
 @extends('layouts.app')
-
+<link href="main.css" rel="stylesheet">
 @section('content')
     <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
         <div>
-            <img class="shadow hover:shadow-2xl rounded-xl"
+            <img id="test" class="hover:shadow-2xl rounded-xl"
                 src="https://mshanken.imgix.net/wso/Articles/2018/NS_health112817_1600.jpg" width="700" alt="">
         </div>
 
@@ -44,25 +44,21 @@
     </div>
 
     <div class="sm:grid grid-cols-2">
-        <div class="sm:grid grid w-3/4 m-auto">
+        <div class="sm:grid grid w-3/4 m-auto mt-11">
             <div class="flex bg-yellow-700 text-gray-100 pt-10">
                 <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
 
                     <h3 class="text-xl font-bold py-10">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas necessitatibus dolorum error
-                        culpa
-                        laboriosam. Enim voluptas earum repudiandae consequuntur ad? Expedita labore aspernatur facilis
-                        quasi
-                        ex? Nemo hic placeat et?
+                        How to stop drinking alcohol: 9 things I did that REALLY helped
                     </h3>
 
-                    <a href=""
+                    <a href="https://www.goodto.com/wellbeing/how-to-stop-drinking-alcohol-521760" target="parent"
                         class="uppercase bg-transparent border-2 border-gray-100 text-gray-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
                         Find Out More
                     </a>
                 </div>
             </div>
-            <div>
+            <div class="test">
                 <img src="https://www.beveragedaily.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/beveragedaily.com/news/regulation-safety/low-alcohol-and-alcohol-free-eu-and-uk-regulations/10563888-3-eng-GB/Low-alcohol-and-alcohol-free-EU-and-UK-regulations.jpg"
                     alt="">
             </div>
@@ -73,11 +69,7 @@
                 <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
 
                     <h3 class="text-xl font-bold py-10">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas necessitatibus dolorum error
-                        culpa
-                        laboriosam. Enim voluptas earum repudiandae consequuntur ad? Expedita labore aspernatur facilis
-                        quasi
-                        ex? Nemo hic placeat et?
+                        How to stop drinking alcohol: 9 things I did that REALLY helped
                     </h3>
 
                     <a href=""
@@ -87,7 +79,7 @@
                 </div>
             </div>
             <div>
-                <img src="https://www.beveragedaily.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/beveragedaily.com/news/regulation-safety/low-alcohol-and-alcohol-free-eu-and-uk-regulations/10563888-3-eng-GB/Low-alcohol-and-alcohol-free-EU-and-UK-regulations.jpg"
+                <img src="https://atlasbiomed.com/blog/content/images/2020/11/2020-10-08-1--Allergic-to-alcohol-201012-.png"
                     alt="">
             </div>
         </div>
@@ -111,7 +103,7 @@
                 </div>
             </div>
             <div>
-                <img src="https://www.beveragedaily.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/beveragedaily.com/news/regulation-safety/low-alcohol-and-alcohol-free-eu-and-uk-regulations/10563888-3-eng-GB/Low-alcohol-and-alcohol-free-EU-and-UK-regulations.jpg"
+                <img src="https://images.ctfassets.net/juauvlea4rbf/22n43pjzhesCmss2kMge8E/2da502354cac8218dbef84ba742282b8/Contenful__11_.svg"
                     alt="">
             </div>
         </div>
@@ -135,7 +127,7 @@
                 </div>
             </div>
             <div>
-                <img src="https://www.beveragedaily.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/beveragedaily.com/news/regulation-safety/low-alcohol-and-alcohol-free-eu-and-uk-regulations/10563888-3-eng-GB/Low-alcohol-and-alcohol-free-EU-and-UK-regulations.jpg"
+                <img src="https://www.mydr.com.au/wp-content/uploads/2018/11/AdobeStock_308594837-scaled-1210x700.jpeg"
                     alt="">
             </div>
         </div>

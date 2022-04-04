@@ -16,6 +16,8 @@
     <!-- Styles -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
 
+
+    <link href="./main.css" rel="stylesheet">
 </head>
 
 <body class="bg-red-50 h-screen antialiased leading-none font-sans">

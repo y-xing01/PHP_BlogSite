@@ -4,10 +4,15 @@ module.exports = {
     './resources/css/**/*.css',
   ],
   theme: {
-    extend: {}
+    extend: {
+      boxShadow: {
+        '2xl': '0 35px 60px -15px rgba(116, 59, 89, 0.8)',
+      }
+    }
   },
   variants: {},
   plugins: [
     require('@tailwindcss/ui'),
   ]
+
 }
