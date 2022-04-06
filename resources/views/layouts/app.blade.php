@@ -44,7 +44,7 @@
                     <a class="no-underline hover:underline" href="/">Home</a>
                     <a class="no-underline hover:underline" href="/blog">Blog</a>
                     <a class="no-underline hover:underline" href="/about">About us</a>
-                    <a class="no-underline hover:underline" href="/alchoholFacts">Alcohol Facts</a>
+                    <a class="no-underline hover:underline" href="/alcoholFacts">Alcohol Facts</a>
                     <a class="no-underline hover:underline" href="/support">Support</a>
                     @guest
                         <a class="no-underline hover:underline" href="{{ route('login') }}">{{ __('Login') }}</a>
