@@ -17,7 +17,7 @@ use App\Http\Controllers\PostsController;
 
 Route::get('/', [PagesController::class, 'index']);
 Route::get('/about', [PagesController::class, 'about']);
-Route::get('/alchoholFacts', [PagesController::class, 'alchoholFacts']);
+Route::get('/alcoholFacts', [PagesController::class, 'alcoholFacts']);
 Route::get('/support', [PagesController::class, 'support']);
 Route::resource('/blog', PostsController::class);
 
