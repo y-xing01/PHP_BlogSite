@@ -17,18 +17,6 @@
                                 <span class="text-sm text-gray-900">Welcome back</span>
                                 <h1 class="text-2xl font-bold">Login to your account</h1>
                             </div>
-                            <div class="mt-5">
-                                <label class="block text-md mb-2" for="password">Password</label>
-                                <input id="password" type="password"
-                                    class="form-input w-full @error('password') border-red-500 @enderror" name="password"
-                                    required autofocus>
-
-                                @error('password')
-                                    <p class="text-red-500 text-xs italic mt-4">
-                                        {{ $message }}
-                                    </p>
-                                @enderror
-                            </div>
                             <div class="my-3">
                                 <label class="block text-md mb-2" for="email">Email</label>
                                 <input id="email" type="email"
@@ -36,6 +24,18 @@
                                     value="{{ old('email') }}" required autocomplete="email">
 
                                 @error('email')
+                                    <p class="text-red-500 text-xs italic mt-4">
+                                        {{ $message }}
+                                    </p>
+                                @enderror
+                            </div>
+                            <div class="mt-5">
+                                <label class="block text-md mb-2" for="password">Password</label>
+                                <input id="password" type="password"
+                                    class="form-input w-full @error('password') border-red-500 @enderror" name="password"
+                                    required autofocus>
+
+                                @error('password')
                                     <p class="text-red-500 text-xs italic mt-4">
                                         {{ $message }}
                                     </p>
