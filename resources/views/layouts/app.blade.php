@@ -47,9 +47,11 @@
                     </div>
                 </div>
 
-                <nav class="space-x-4 text-gray-300 text-sm sm:text-base">
+                <nav class="space-x-4 text-gray-50 text-sm sm:text-base">
                     <a class="no-underline hover:underline" href="/">Home</a>
-                    
+
+                    <a class="no-underline hover:underline" href="/blog = 1">Blog</a>
+
                     <a class="no-underline hover:underline" href="/about">About us</a>
 
                     <a class="no-underline hover:underline" href="/support">Support</a>
@@ -60,13 +62,11 @@
                                 href="{{ route('register') }}">{{ __('Register') }}</a>
                         @endif
                     @else
-                        
-                        <a class="no-underline hover:underline" href="/blog">Blog</a>
                         <a class="no-underline hover:underline" href="/alcoholFacts">Alcohol Facts</a>
                         <span>{{ Auth::user()->name }}</span>
                         <a href="{{ route('logout') }}" class="no-underline hover:underline"
                             onclick="event.preventDefault();
-                                                        document.getElementById('logout-form').submit();">{{ __('Logout') }}</a>
+                                                            document.getElementById('logout-form').submit();">{{ __('Logout') }}</a>
                         <form id="logout-form" action="{{ route('logout') }}" method="POST" class="hidden">
                             {{ csrf_field() }}
                         </form>

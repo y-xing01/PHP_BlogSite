@@ -1,5 +1,6 @@
 @extends('layouts.app')
 <link href="main.css" rel="stylesheet">
+
 @section('content')
     <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
         <div>
@@ -42,35 +43,35 @@
             These Are The 4 Latest Posts
         </h2>
     </div>
-    {{-- <span>{{ Auth::user()->name }}</span> --}}
-    <div class="sm:grid grid-cols-2">
-        <div class="sm:grid grid w-3/4 m-auto mt-11">
-            <div class="flex bg-yellow-700 text-gray-100 pt-10">
-                <div class="m-auto pt-1 pb-16 sm:m-auto w-4/5 block">
 
-                    <h3 class="text-xl font-bold py-10">
-                        {{-- {{ blog }} --}}
-                    </h3>
-                    <h5>
-                        “I'm so happy Mum quit drinking.” Is there someone in your life who'd benefit from you ditching
-                        alcohol? It's a question I often ask the women I work with. For many, their answer is: “My kids.” So
-                        I thought it was about time we heard…
-                    </h5>
-                    <div class="mt-10">
-                        <a href="https://www.goodto.com/wellbeing/how-to-stop-drinking-alcohol-521760" target="parent"
-                            class="uppercase bg-transparent border-2 border-gray-100 text-gray-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
-                            Find Out More
-                        </a>
+    <div class="sm:grid grid-cols-2">
+        @foreach ($posts as $post)
+            <div class="sm:grid grid w-3/4 m-auto mt-11">
+                <div class="flex bg-yellow-700 text-gray-100 pt-10 h-80">
+                    <div class="m-auto pt-1 pb-16 sm:m-auto w-4/5 block">
+
+                        <h3 class="text-xl font-bold py-10">
+                            {{ $post->title }}
+                        </h3>
+                        <h5 class="object-cover h-20 w-96 truncate ">
+                            {{ $post->description }}
+                        </h5>
+                        <div class="mt-10">
+                            <a href="/blog/{{ $post->slug }}"
+                                class="uppercase bg-transparent border-2 border-gray-100 text-gray-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
+                                Find Out More
+                            </a>
+                        </div>
                     </div>
                 </div>
+                <div class=" h-96 w-full ">
+                    <img class=" h-96 w-full object-fill" src="{{ asset('images/' . $post->image_path) }}" alt="">
+                </div>
             </div>
-            <div class="test">
-                <img src="https://www.beveragedaily.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/beveragedaily.com/news/regulation-safety/low-alcohol-and-alcohol-free-eu-and-uk-regulations/10563888-3-eng-GB/Low-alcohol-and-alcohol-free-EU-and-UK-regulations.jpg"
-                    alt="">
-            </div>
-        </div>
+        @endforeach
+    </div>
 
-        <div class="sm:grid grid w-3/4 m-auto">
+    {{-- <div class="sm:grid grid w-3/4 m-auto">
             <div class="flex bg-yellow-700 text-gray-100 pt-10">
                 <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
 
@@ -149,6 +150,6 @@
                 <img src="https://www.mydr.com.au/wp-content/uploads/2018/11/AdobeStock_308594837-scaled-1210x700.jpeg"
                     alt="">
             </div>
-        </div>
+        </div> --}}
     </div>
 @endsection

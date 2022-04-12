@@ -21,6 +21,8 @@ Route::get('/alcoholFacts', [PagesController::class, 'alcoholFacts']);
 Route::get('/support', [PagesController::class, 'support']);
 Route::resource('/blog', PostsController::class);
 
+
+
 Auth::routes();
 
 Route::get('/home', [\App\Http\Controllers\HomeController::class, 'index'])->name('home');
