@@ -50,7 +50,7 @@
                 <nav class="space-x-4 text-gray-50 text-sm sm:text-base">
                     <a class="no-underline hover:underline" href="/">Home</a>
 
-                    <a class="no-underline hover:underline" href="/blog = 1">Blog</a>
+                    <a class="no-underline hover:underline" href="/blog">Blog</a>
 
                     <a class="no-underline hover:underline" href="/about">About us</a>
 
