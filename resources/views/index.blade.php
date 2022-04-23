@@ -47,7 +47,7 @@
     <div class="sm:grid grid-cols-2">
         @foreach ($posts as $post)
             <div class="sm:grid grid w-3/4 m-auto mt-11">
-                <div class="flex bg-yellow-700 text-gray-100 pt-10 h-80">
+                <div class="flex bg-orange-800 text-gray-100 pt-10 h-80">
                     <div class="m-auto pt-1 pb-16 sm:m-auto w-4/5 block">
 
                         <h3 class="text-xl font-bold py-10">
@@ -70,86 +70,5 @@
             </div>
         @endforeach
     </div>
-
-    {{-- <div class="sm:grid grid w-3/4 m-auto">
-            <div class="flex bg-yellow-700 text-gray-100 pt-10">
-                <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
-
-                    <h3 class="text-xl font-bold py-10">
-                        “I Drink Every Evening Because I Feel Lonely.”
-                    </h3>
-                    <h5>
-                        “I'm so lonely, I end up drinking wine whilst I watch TV in the evenings.” I spotted this comment on
-                        one of my blog posts recently. It resonated with me because there was a time in my life when I was
-                        doing the same thing. There's…
-                    </h5>
-
-                    <div class="mt-10">
-                        <a href=""
-                            class="uppercase bg-transparent border-2 border-gray-100 text-gray-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
-                            Find Out More
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <img src="https://atlasbiomed.com/blog/content/images/2020/11/2020-10-08-1--Allergic-to-alcohol-201012-.png"
-                    alt="">
-            </div>
-        </div>
-
-        <div class="sm:grid grid w-3/4 m-auto pt-10">
-            <div class="flex bg-yellow-700 text-gray-100 pt-10">
-                <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
-
-                    <h3 class="text-xl font-bold py-10">
-                        64 Famous Women Who Don't Drink Alcohol
-                    </h3>
-                    <h5>
-                        Before I quit drinking, I didn't really know any other sober women. Back then, I had a lot of
-                        misguided beliefs about alcohol free living. I thought people who didn't drink were probably a bit
-                        too serious and boring. If someone…
-                    </h5>
-
-                    <div class="mt-10">
-                        <a href=""
-                            class="uppercase bg-transparent border-2 border-gray-100 text-gray-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
-                            Find Out More
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <img src="https://images.ctfassets.net/juauvlea4rbf/22n43pjzhesCmss2kMge8E/2da502354cac8218dbef84ba742282b8/Contenful__11_.svg"
-                    alt="">
-            </div>
-        </div>
-
-        <div class="sm:grid grid w-3/4 m-auto pt-10">
-            <div class="flex bg-yellow-700 text-gray-100 pt-10">
-                <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
-
-                    <h3 class="text-xl font-bold py-10">
-                        When You're Tempted To Give Up On Your Sober Goals
-                    </h3>
-                    <h5>
-                        “I give up.” In early sobriety, there are days when it feels so tempting to say: “Enough! I'm fed
-                        up. I'm done with this. I'm tired of trying not to drink. I'm not going to bother with sobriety
-                        anymore.” I've been there myself, so I know…
-                    </h5>
-
-                    <div class="mt-10">
-                        <a href=""
-                            class="uppercase bg-transparent border-2 border-gray-100 text-gray-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
-                            Find Out More
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <img src="https://www.mydr.com.au/wp-content/uploads/2018/11/AdobeStock_308594837-scaled-1210x700.jpeg"
-                    alt="">
-            </div>
-        </div> --}}
     </div>
 @endsection

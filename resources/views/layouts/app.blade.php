@@ -15,7 +15,8 @@
 
     <!-- Styles -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
-
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.2/dist/alpine.min.js" defer></script>
 
     <link href="./main.css" rel="stylesheet">
 </head>
@@ -50,7 +51,7 @@
                 <nav class="space-x-4 text-gray-50 text-sm sm:text-base">
                     <a class="no-underline hover:underline" href="/">Home</a>
 
-                    <a class="no-underline hover:underline" href="/blog = 1">Blog</a>
+                    <a class="no-underline hover:underline" href="/blog">Blog</a>
 
                     <a class="no-underline hover:underline" href="/about">About us</a>
 
