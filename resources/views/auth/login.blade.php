@@ -55,6 +55,18 @@
                                     </a>
                                 @endif
                             </div>
+                            <div class="form-group row mb-0">
+                                <div class="form-group row">
+                                    <div class="col-md-6 offset-md-3">
+                                        <a href="{{ route('login.google') }}" class="btn btn-danger btn-block">Login with
+                                            Google</a>
+                                        <a href="{{ route('login.github') }}" class="btn btn-dark btn-block">Login with
+                                            Github</a>
+                                        <a href="{{ route('login.twitter') }}" class="btn btn-primary btn-block">Login
+                                            with Twitter</a>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="flex flex-wrap">
                                 <button type="submit"
                                     class="w-full select-none font-bold whitespace-no-wrap p-3 rounded-lg text-base leading-normal no-underline text-gray-100 bg-blue-500 hover:bg-blue-700 sm:py-4">

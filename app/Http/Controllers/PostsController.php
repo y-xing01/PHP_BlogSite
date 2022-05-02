@@ -24,6 +24,11 @@ class PostsController extends Controller
             ->with('posts', Post::orderBy('updated_at', 'DESC')->get());
     }
 
+    public function search(Request $request){
+        $posts = Post::where('title', 'like', '%' .$request->search . '%')->get();
+    return view('blog.search_post',compact('posts'));
+    }
+
     /**
      * Show the form for creating a new resource.
      *

@@ -43,7 +43,6 @@
             These Are The 4 Latest Posts
         </h2>
     </div>
-
     <div class="sm:grid grid-cols-2">
         @foreach ($posts as $post)
             <div class="sm:grid grid w-3/4 m-auto mt-11">
