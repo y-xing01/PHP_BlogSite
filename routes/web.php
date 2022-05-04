@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PagesController;
 use App\Http\Controllers\PostsController;
 use Illuminate\Support\Facades\Auth;
+use App\Http\Controllers\CommentsController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -21,6 +22,8 @@ Route::get('/about', [PagesController::class, 'about']);
 Route::get('/alcoholFacts', [PagesController::class, 'alcoholFacts']);
 Route::get('/support', [PagesController::class, 'support']);
 Route::resource('/blog', PostsController::class);
+Route::post('/blog/{post}/comments', [CommentsController::class, 'storeComment']);
+Route::delete('/comments/{comment}', [CommentsController::class, 'destroy']); 
 
 Auth::routes();
 

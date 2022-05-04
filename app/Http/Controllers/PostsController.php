@@ -5,7 +5,9 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Post;
 use Cviebrock\EloquentSluggable\Services\SlugService;
-
+use App\Models\Comment;
+use App\Models\User;
+use DB;
 class PostsController extends Controller
 {
  
@@ -69,6 +71,8 @@ class PostsController extends Controller
             ->with('message', 'Your post has been added!');
     }
 
+    
+
     /**
      * Display the specified resource.
      *
@@ -77,8 +81,21 @@ class PostsController extends Controller
      */
     public function show($slug)
     {
+        $post =  Post::where('slug', $slug)->first();
+        $comments =  Comment::where('post_id', $post->id)->paginate();
+
         return view('blog.show')
-            ->with('post', Post::where('slug', $slug)->first());
+            ->with([
+                'post'=> $post,
+                'comments' => $comments
+        ]);
+    }
+    public function showComment($slug)
+    {
+        return view('posts.show', [
+            'post'     => $post,
+            'comments' => $post->comments()->paginate(5)
+        ]);
     }
 
     /**
