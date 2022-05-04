@@ -18,10 +18,8 @@
                     <div class="w-full py-4 px-6 text-gray-800 flex flex-col justify-between">
                         <h3 class="font-semibold text-lg leading-tight truncate">Jeremy Soh Hong Shi (Front-end Developer)</h3>
                         <p class="mt-2">
-                            Hi, my name is Jeremy Soh, I'm a 2nd year software engineering student in DKIT. Dr. Perry
-                            Williams recently joined the faculty in the Department of Natural Resources and Environmental
-                            Science at the University of Nevada, Reno, and was kind enough to provide his biography to help
-                            us get to know him. Welcome to Nevada, Dr. Williams!
+                            Hi, my name is Jeremy Soh, I'm a 2nd year software engineering student in DKIT. I'm the main creator of
+                            Summer Vibecohol in the Department of Alcohol Development.
                         </p>
                         <p class="text-sm text-gray-700 uppercase tracking-wide font-semibold mt-2">
                             Jeremy Soh &bull; 2021-12-01
@@ -46,10 +44,9 @@
                     <div class="w-full py-4 px-6 text-gray-800 flex flex-col justify-between">
                         <h3 class="font-semibold text-lg leading-tight truncate">Yue Xing Tong (Back-end Developer)</h3>
                         <p class="mt-2">
-                            Dr. Perry Williams recently joined the faculty in the Department of Natural Resources and
-                            Environmental
-                            Science at the University of Nevada, Reno, and was kind enough to provide his biography to help
-                            us get to know him. Welcome to Nevada, Dr. Williams!
+                            Yue Xing recently join in the Department of Alcohol Development. 
+                            He studied Software Development at the Dundalk Institute of Technology, Ireland, and was kind enough to provide his help in this project :P
+                            Welcome to Summer Vibecohol, Yue Xing!
                         </p>
                         <p class="text-sm text-gray-700 uppercase tracking-wide font-semibold mt-2">
                             Yue Xing Tong &bull; 2021-12-01
