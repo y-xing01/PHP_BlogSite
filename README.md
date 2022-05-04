@@ -30,7 +30,7 @@
 
 ![image](https://user-images.githubusercontent.com/93914097/166611742-5bc84ab0-20fe-4a86-96da-13e0b6923c38.png)
 <br><br><br><br>
-<h1>ontact Us for more details ~ 😘</h1>
+<h1>Contact Us for more details ~ 😘</h1>
 
 ![image](https://user-images.githubusercontent.com/93914097/166611791-ee7379af-00ea-4355-ac28-90ff17382e95.png)
 <br><br><br><br>
