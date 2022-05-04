@@ -58,14 +58,14 @@
                             <div class="form-group row mb-0">
                                 <div class="form-group row">
                                     <div class="col-md-6 offset-md-3">
-                                        <a href="{{ route('login.github') }}" class="btn btn-dark btn-block">Login with
+                                        <a href="{{ route('login.github') }}" class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-20 border-b-4 border-blue-700 hover:border-blue-500 rounded">Login with
                                             Github</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="flex flex-wrap">
                                 <button type="submit"
-                                    class="w-full select-none font-bold whitespace-no-wrap p-3 rounded-lg text-base leading-normal no-underline text-gray-100 bg-blue-500 hover:bg-blue-700 sm:py-4">
+                                    class="w-full select-none font-bold whitespace-no-wrap p-3 rounded-lg text-base leading-normal no-underline text-gray-100 border-b-4 border-blue-700 hover:border-blue-500 rounded sm:py-4 bg-blue-500 hover:bg-blue-400 text-white ">
                                     {{ __('Login') }}
                                 </button>
 
