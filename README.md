@@ -1,49 +1,32 @@
-## Laravel 8 Complete Blog
+## Summer Vibecohol 🥂
+![image](https://user-images.githubusercontent.com/93914097/166611327-37318d54-25d8-48a3-a8d9-2df4a938d3f2.png)
 
-This repository is linked to [this youtube video](https://www.youtube.com/watch?v=HKJDLXsTr8A&t=4710s) where I show you how to create a complete blog in Laravel 8 using best practices.
 
-•	Author: Code With Dary <br>
-•	Twitter: [@codewithdary](https://twitter.com/codewithdary) <br>
-•	Instagram: [@codewithdary](https://www.instagram.com/codewithdary/) <br>
+<h1>Our blogs will let you know more about the inner beauty of alcohol</h1>
+• Publishing your own BLOGS !
+• Viewing all types of blog post that is related to ALCOHOL !
 
-## Requirements
-•	PHP 7.3 or higher <br>
-•	Node 12.13.0 or higher <br>
+#HOMEPAGE 🥂🥂
+![image](https://user-images.githubusercontent.com/93914097/166611069-a5c9371b-4223-4dc0-9861-9b6d12789308.png)
 
-## Usage <br>
-Setting up your development environment on your local machine: <br>
-```
-git clone git@github.com:codewithdary/laravel-8-complete-blog.git
-cd laravel-8-complete-blog
-cp .env.example .env
-composer install
-php artisan key:generate
-php artisan cache:clear && php artisan config:clear
-php artisan serve
-```
+#What's in our blog? 🧐
+![image](https://user-images.githubusercontent.com/93914097/166611425-2a070267-4d26-429e-a509-79be51690add.png)
 
-## Before starting <br>
-Create a database <br>
-```
-mysql
-create database laravelblog;
-exit;
-```
+#Newest Blogs will be posted on the homepage to get users up to date ! 🤤
+![image](https://user-images.githubusercontent.com/93914097/166611528-cc16b525-981d-491c-88ea-f4ae9bf166ba.png)
 
-Setup your database credentials in the .env file <br>
-```
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=laravelblog
-DB_USERNAME={USERNAME}
-DB_PASSWORD={PASSWORD}
-```
+#We even support login shortcuts ! 🥳🥳
+![image](https://user-images.githubusercontent.com/93914097/166611904-7ce37773-8f0d-47d7-b97e-965feb1cf711.png)
 
-Migrate the tables
-```
-php artisan migrate
-```
+#And there is more about us ! 😍
+![image](https://user-images.githubusercontent.com/93914097/166611569-2ad8fdbc-e5db-4b68-8378-748a8710e28e.png)
 
-## Contributing
-Do not hesitate to contribute to the project by adapting or adding features ! Bug reports or pull requests are welcome.
+#You can even interact with others ! 😱😱😱
+![image](https://user-images.githubusercontent.com/93914097/166611742-5bc84ab0-20fe-4a86-96da-13e0b6923c38.png)
+
+#Contact Us for more details ~ 😘
+![image](https://user-images.githubusercontent.com/93914097/166611791-ee7379af-00ea-4355-ac28-90ff17382e95.png)
+
+#Link to our YouTube Video for guides !	📲 
+•[@Don't Forget to Like, Subscribe AND SHARE!](https://youtu.be/vy2j4ib7joU)
+
