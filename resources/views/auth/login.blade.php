@@ -58,12 +58,8 @@
                             <div class="form-group row mb-0">
                                 <div class="form-group row">
                                     <div class="col-md-6 offset-md-3">
-                                        <a href="{{ route('login.google') }}" class="btn btn-danger btn-block">Login with
-                                            Google</a>
                                         <a href="{{ route('login.github') }}" class="btn btn-dark btn-block">Login with
                                             Github</a>
-                                        <a href="{{ route('login.twitter') }}" class="btn btn-primary btn-block">Login
-                                            with Twitter</a>
                                     </div>
                                 </div>
                             </div>
