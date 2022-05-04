@@ -7,6 +7,7 @@
 • Viewing all types of blog post that is related to ALCOHOL !
 
 <h1>HOMEPAGE 🥂🥂</h1>
+
 ![image](https://user-images.githubusercontent.com/93914097/166611069-a5c9371b-4223-4dc0-9861-9b6d12789308.png)
 <br><br><br><br>
 <h1>What's in our blog? 🧐</h1>
